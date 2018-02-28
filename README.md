@@ -53,7 +53,7 @@ You can replay a PCAP file in offline mode:
 7. Do the extra step below in the Compatibility tab in the Properties.
 8. Run the batch file.
 
-@w930322 
+----------------- 
 
 ```
 @echo off
