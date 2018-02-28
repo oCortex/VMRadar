@@ -36,10 +36,8 @@ You can replay a PCAP file in offline mode:
 
 `java -jar target\pubg-radar-1.0-SNAPSHOT-jar-with-dependencies.jar "Middle PC IP" PortFilter "Game PC IP" Offline`
 
-## Build
-Using [maven](https://maven.apache.org/) or [JetBrains](https://www.jetbrains.com/idea/)
 
-## Install and Run
+## Build, Install and Run
 
 1. Install VMWare Workstation
 2. Setup your VM in Bridged Mode, replicate physical.
@@ -49,6 +47,8 @@ Using [maven](https://maven.apache.org/) or [JetBrains](https://www.jetbrains.co
 4. Install [JDK8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) on your VM and 
 5. Add JAVA_HOME to your Environment Path, screenshot below.
 5. Install [Wireshark + WinPCap](https://www.wireshark.org/) on your VM
+6. Use the command prompt to go to your VMRadar directory (with the src folder)
+7. type `mvn verify install` into the command prompt.
 6. Change your IP addresses in the batch file, It will crash if they are wrong.
 7. Do the extra step below in the Compatibility tab in the Properties.
 8. Run the batch file.
@@ -68,4 +68,4 @@ Using [maven](https://maven.apache.org/) or [JetBrains](https://www.jetbrains.co
 
 #### You can find detailed instructions on how to run a maven project [here](https://maven.apache.org/run.html)
 
-
+[IntelliJ IDEA](https://www.jetbrains.com/idea/?fromMenu)
