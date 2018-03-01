@@ -4,7 +4,7 @@
 
 https://github.com/SamuelNZ/VMRadar/releases
 
-![Imgur](https://i.imgur.com/6dZGFen.gif)
+![Imgur](https://i.imgur.com/Pc7foHp.gif)
 
 This version runs without the spoofing shit in a VM.
 
