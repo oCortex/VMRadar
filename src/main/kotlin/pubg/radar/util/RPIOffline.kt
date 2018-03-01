@@ -36,9 +36,10 @@ class PlayerProfile {
         private val baseCount = ConcurrentHashMap<String, Int>()
         private val scheduled = AtomicBoolean(false)
         private val running = AtomicBoolean(true)
-        private val base = 62
+        private const val base = 62
 
-        fun query(name: String) {
+
+         fun query(name: String) {
             if (completedPlayerInfo.containsKey(name)) return
             baseCount.putIfAbsent(name, 0)
             pendingPlayerInfo.compute(name) { _, count ->
@@ -60,10 +61,9 @@ class PlayerProfile {
                             continue
                         }
                     }
-                }
+                }else{ return }
         }
     }
-
     private fun ee(c: Int, a: Int = base): String {
         val first = if (c < a) ""
         else ee(c / a, a)

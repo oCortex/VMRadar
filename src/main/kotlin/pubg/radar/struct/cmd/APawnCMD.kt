@@ -60,7 +60,10 @@ object APawnCMD {
                 }
                 8 -> {
                     val locationOffset = propertyVector100()
+
                     if (actor.Type == DroopedItemGroup) {
+
+
                         bugln { "${actor.location} locationOffset $locationOffset" }
                     }
                     bugln { ",attachLocation $actor ----------> $locationOffset" }

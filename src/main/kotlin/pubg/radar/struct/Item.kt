@@ -62,23 +62,28 @@ class Item {
                         "MedKit" to "MedKit"
                 ),
                 "Weapon" to mapOf(
-                        "M16A4" to "M16A4",
-                        "M416" to "M416",
+                        "M16A4" to "WeapM16A4",
+                        "M416" to "WeapHK416",
                         "Kar98k" to "98k",
-                        "Kar98" to "98k",
                         "SCAR-L" to "Scar",
-                        "AK47" to "Ak",
+                        "AK" to "WeapAK47",
                         "SKS" to "Sks",
                         "Grenade" to "Grenade",
                         "Mini14" to "Mini",
                         "DP28" to "DP28",
                         "UMP" to "Ump",
                         "Vector" to "Vector",
-                        "Pan" to "Pan"
+                        "Pan" to "Pan",
+                        "Sawn" to "WeapSawnOff",
+                        "Vector" to "Item_Weapon_Vector",
+                        "UZI" to "WeapUZI"
                 ),
                 "Ammo" to mapOf(
-                        "556mm" to "556",
-                        "762mm" to "762"
+                        "9mm" to "Item_Ammo_9mm",
+                        "45mm" to "Item_Ammo_45mm",
+                        "556mm" to "Item_Ammo_556mm",
+                        "762mm" to "Item_Ammo_762mm",
+                        "300mm" to "Item_Ammo_300mm"
                 ),
                 "Armor" to mapOf(
                         "C" to mapOf("01" to mapOf("Lv3" to "Arm3")),
